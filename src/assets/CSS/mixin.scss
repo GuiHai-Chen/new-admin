@@ -1,0 +1,15 @@
+@mixin triangle($dir,$bWidth,$bColor){
+  width: 0;
+  height: 0;
+  border-width: $bWidth;
+  border-style:solid solid solid solid;
+  @if($dir==Up){
+    border-color:transparent transparent $bColor transparent;
+  }@else if($dir==Down){
+    border-color:$bColor transparent transparent transparent;
+  }@else if($dir==Left){
+    border-color:transparent $bColor transparent transparent;
+  }@else if($dir==Right){
+    border-color:transparent transparent transparent $bColor;
+  }
+}
