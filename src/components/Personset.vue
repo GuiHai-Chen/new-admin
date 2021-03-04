@@ -130,17 +130,6 @@ export default {
           this.$message.error('保存失败')
         })
       })
-      /* console.log(this.saveImg)
-      console.log(this.blobImg)
-      console.log(updatePerson) */
-      /* const fd = new FormData()
-      // fd.append('image', this.blobImg)
-      fd.append('image', this.saveImg)
-      uploadImage(fd).then(res => {
-        console.log(res)
-      }).catch(err => {
-        console.log(err)
-      }) */
     },
     // 上传图片
     handleAvatarSuccess (res, file) {
@@ -235,6 +224,7 @@ export default {
             width: 180px;
             height: 180px;
             border-radius:5px;
+            background-color: #fff;
             position: absolute;
             top: 0;
             left: 0;
