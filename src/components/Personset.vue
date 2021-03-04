@@ -274,6 +274,10 @@ export default {
     .el-input__inner{
       height: 40px !important;
     }
+    .el-form-item__error{
+      line-height: 0;
+      padding-top: 0;
+    }
   }
 </style>
 <style lang="scss">

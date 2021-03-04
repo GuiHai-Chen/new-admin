@@ -43,7 +43,7 @@
         <el-header style="font-size: 12px">
           <div class="company-name">
             <i class="el-icon-s-fold icon" @click="collapse"></i>
-            <span>新东方科技有限公司</span>
+            <span>新东方烹饪科技有限公司</span>
           </div>
           <el-dropdown>
             <div class="person-info">
@@ -186,7 +186,7 @@ export default {
   created () {
     // 请求用户信息
     personInfo().then((res) => {
-      console.log(res)
+      // console.log(res)
       // this.profile = res.data.data
       this.setLoginData(res.data.data)
     }).catch((err) => {
@@ -221,7 +221,7 @@ export default {
           width: 35px;
           height: 60px;
           margin: 0 auto;
-          background:url('../assets/images/logo_admin.png') left center no-repeat;
+          background:url('../assets/images/logo_admin1.png') left center no-repeat;
           background-size:120px auto;
           box-sizing: border-box;
         }

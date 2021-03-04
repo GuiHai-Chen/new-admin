@@ -260,7 +260,6 @@ export default {
   #Content{
     width: 100%;
     height: 100%;
-    /*background-color: rebeccapurple;*/
     position: relative;
     .box-card{
       width: 100%;
@@ -314,15 +313,6 @@ export default {
   }
 </style>
 <style lang="scss">
-  .el-form-item{
-    margin-bottom: 18px;
-    .el-form-item__content{
-      height: 33px;
-    }
-    .el-input__inner{
-      height: 33px;
-    }
-  }
   .el-pagination,.is-background{
     margin-top: 20px;
   }
