@@ -12,13 +12,9 @@ export default {
 
 <style scoped lang="scss">
   #Home{
-    /*height: 100%;*/
-
-    background:url("../assets/images/hzw1.jpeg") no-repeat;
-    background-size: contain;
+    background:url("../assets/images/hzw1.jpg") no-repeat;
     padding-top:56.25%; /* 316 / 1024 */
     background-size:cover;
-    background-position:center;
   }
 
 </style>
